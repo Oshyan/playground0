@@ -3,7 +3,7 @@ import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
-import _ from 'lodash';
+import _ from 'https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js';
 
 const MortgageCalculator = () => {
   // Initial loan state
